@@ -3,14 +3,15 @@
 
 📌 Project Description
               This project performs clustering on a dataset using the K-Means algorithm. It identifies distinct groups in the data and visualizes the results.
-              This is a simple Python project demonstration K-Means Clustering using the `sklearn` library.
+  This is a simple Python project demonstration K-Means Clustering using the `sklearn` library.
 
  📁 Files Included
 
-- `kmeans_clustering.py` – Main script to run K-Means
-- `\Live_20210128.csv"` – Input dataset
-- `output/clusters.png` – Output image of clustered data
-- `notebooks/kmeans_demo.ipynb` – Optional: Jupyter Notebook version of the project
+- `K-Means clustering.ipynb`: Interactive notebook
+- `kmeans_clustering.py`: Script version of the project
+- `facebook_live_sellers_in_thailand.csv`: Dataset used
+- `README.md`: Project overview
+- `Requirements.txt`: Required packages 
 
   
 📊 Customer Segmentation using K-Means Clustering 
@@ -52,6 +53,13 @@ Key columns used for clustering:
    - Clustered scatter plots to visualize groupings.
    - Plotted with 2D projections of scaled features.
 
+🧠 Methods
+- K-Means Clustering from `scikit-learn`
+- Feature scaling using:
+  - `MinMaxScaler` for clustering
+  - `StandardScaler` for visualization
+- 2D scatter plots to visualize clusters
+
  📈 Results
 - The model segmented the sellers into 5 distinct clusters (e.g., low, medium, high engagement groups).
 - Visual inspection through scatter plots helped interpret behavior patterns.
@@ -62,7 +70,4 @@ Based on `num_reactions` and `num_comments` (after MinMax Scaling):
 
 👩‍💻 Author
 Elaine - www.linkedin.com/in/elaine-kiruba-r
-
-
-
 
